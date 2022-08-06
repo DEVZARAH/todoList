@@ -9,8 +9,8 @@ const addItemBottom = () => {
     taskList.push(input.value);
   }
 
-  console.log(taskList);
-  input.value = "";
+ 
+  input.value = " ";
   const displayText = taskList
     .map((item) => {
       return `<div class="item">${item}</div>`;
@@ -26,7 +26,7 @@ const addItemTop = () => {
     taskList.unshift(input.value);
   }
 
-  console.log(taskList);
+
   input.value = "";
   const displayText = taskList
     .map((item) => {
