@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="main">
+
+ 
+      <form class="con">
+               <input type="text" name="" id="text" />
+      <img src="img/magnifying-glass-solid.svg" alt="" width="10px"/>
+      </form>
+        <div class="btncon">
+        <button class="btn one" onclick="addItemTop()">Add to Top</button>
+        <button class="btn two" onclick="removeItemTop()">Remove from Top</button>
+        <button class="btn three" onclick="addItemBottom()">Add to Bottom</button>
+        <button class="btn four" onclick="removeItemBottom()">Remove from Bottom</button>
+      <button class="btn five" onclick="refresh()">Refresh!</button>
+        <button class="btn six">Clear All</button>
+        </div>
+         <div class="display"></div>
+      </div>
+     
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+</html>
